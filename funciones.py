@@ -15,7 +15,7 @@ def sum(num_1: float,num_2: float) -> float:
 #EJERCICIO APRENDE CON alf
 #Ejercicio 5 : Escribir una función que calcule el área de un círculo y otra que calcule el volumen de un cilindro usando la primera función.
 import math
-def area_circulo(radio:float):
+def area_circulo(radio:float) -> float:
     """area_circulo: esta funcíon solicita el radio de una circunferencia y retorna el área de la circunferencia.
 
     Args:
@@ -27,7 +27,7 @@ def area_circulo(radio:float):
     area:float = radio * 3.14
     return area
 
-def volumen_cilindro(radio:float,altura:float):
+def volumen_cilindro(radio:float,altura:float) -> float:
     """volumen_cilindro: esta función solicita el radio y la altura de un cilindro y retorna el volumen de este
 
     Args:
